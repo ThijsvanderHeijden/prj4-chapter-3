@@ -1,13 +1,39 @@
 @charset "utf-8";
 
-.title { color: lightskyblue; border: 2px dotted black;
+* { 
+	text-align: center;
 }
 
-#firstedit {color: darkblue;
+body { 
+	background-image: url(../images/ocean.jpg);
+	padding: 0px;
+	symmetrical-margin: 5px;
+	background-size: cover;
+}
+	
+
+.title { 
+	color: black; 
+	border: 2px dotted black;
 }
 
-p {background-color: hsla(191,78%,74%,1.00); border:1px solid cyan; color: black
+#firstedit {
+	color: darkblue;
 }
 
-.help {border: 4px solid hsla(191,78%,74%,1.00); padding: 10px; background-color: cyan; font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+img {
+	width: 600px;
+	padding-bottom: 40px;
 }
+
+.container {
+	border: 4px solid darkblue; 
+	padding: 10px; 
+	background-color: white; 
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
+
+h5 { 
+	color: darkblue}
+
+
