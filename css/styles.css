@@ -7,8 +7,12 @@
 body { 
 	background-image: url(../images/ocean.jpg);
 	padding: 0px;
-	symmetrical-margin: 5px;
+	margin: 5px;
 	background-size: cover;
+}
+
+p {
+	font-family: 'Shippori Mincho', serif;
 }
 	
 
@@ -27,6 +31,8 @@ img {
 }
 
 .container {
+	float: left;
+	margin: 80px;
 	border: 4px solid darkblue; 
 	padding: 10px; 
 	background-color: white; 
