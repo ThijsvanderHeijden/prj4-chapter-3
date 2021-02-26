@@ -4,42 +4,47 @@
 	text-align: center;
 }
 
-body { 
+header { 
 	background-image: url(../images/ocean.jpg);
-	padding: 0px;
-	margin: 5px;
+	padding: 60px;
+	margin: -30px;
+	margin-bottom: 5px;
 	background-size: cover;
 }
 
+
 p {
-	font-family: 'Shippori Mincho', serif;
+	font-family: 'Shippori Mincho B1', serif;
 }
 	
 
 .title { 
 	color: black; 
-	border: 2px dotted black;
-}
-
-#firstedit {
-	color: darkblue;
+	border: 2px dotted black; 
 }
 
 img {
 	width: 600px;
-	padding-bottom: 40px;
+	padding-bottom: 5px;
+	padding-top: 40px;
 }
 
-.container {
+section {
 	float: left;
-	margin: 80px;
+	margin: 40px;
 	border: 4px solid darkblue; 
 	padding: 10px; 
 	background-color: white; 
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
 }
 
-h5 { 
-	color: darkblue}
+h5, h3 { 
+	color: darkblue;
+}
+
+footer {
+	color: darkblue;
+	margin: 60px;
+	padding-bottom: 10px;
+}
 
 
